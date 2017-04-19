@@ -1,0 +1,30 @@
+html
+  font-size $font-size-base
+  line-height 1.25rem
+  
+.boss
+  @extend $boss
+
+.headline
+  @extend $headline
+
+.subheadline
+  @extend $subheadline
+
+.copytext
+  @extend $copytext
+
+.microtext
+  @extend $microtext
+
+.layout
+  @extend $copytext
+
+.boss,
+.headline,
+.subheadline,
+.copytext,
+.microtext
+  color $color-black
+  &.inverted
+    color $color-white
